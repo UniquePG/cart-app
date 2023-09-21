@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Product from "../components/Product";
+import Product from "../Components/Product";
 import Spinner from "../Components/Spinner";
 
 const Home = () => {

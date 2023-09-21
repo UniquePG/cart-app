@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-import CartItem from "../components/CartItem";
+import CartItem from "../Components/CartItem";
 
 const Cart = () => {
   const { cart } = useSelector((state) => state);
